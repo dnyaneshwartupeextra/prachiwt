@@ -1,0 +1,109 @@
+/* Whole Website Background */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+
+  background-image: url("https://images.unsplash.com/photo-1468327768560-75b778cbb551?w=1600");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Main App */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: rgba(255,255,255,0.88);
+  padding-bottom: 40px;
+}
+
+/* Heading */
+
+h1 {
+  font-size: 50px;
+  color: #4d3b33;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #5b4033;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #6b4c3b;
+}
+
+/* Navigation */
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a4e37;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: #d78b72;
+}
+
+/* Horizontal Line */
+
+hr {
+  width: 95%;
+}
+
+/* Images */
+
+img {
+  border-radius: 15px;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.25);
+}
+
+/* Home About Contact Card */
+
+.home,
+.about,
+.contact {
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Paragraph */
+
+p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* List */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* Contact */
+
+.contact p {
+  font-size: 20px;
+}
